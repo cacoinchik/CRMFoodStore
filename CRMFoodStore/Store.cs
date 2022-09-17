@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using CRMData;
+using CRMData.Models;
+using CRMData.Models.StockData;
 
 namespace CRMFoodStore
 {
@@ -15,6 +11,11 @@ namespace CRMFoodStore
         public Store()
         {
             InitializeComponent();
+        }
+
+        private void Store_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
